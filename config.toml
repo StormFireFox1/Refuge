@@ -1,0 +1,34 @@
+baseURL = "https://blog.stormhub.io"
+title = "A Procrastinator's Refuge"
+themesDir = "themes/"
+contentDir = "content/"
+publishDir = "public/"
+theme = "lanyon-hugo"
+
+builddrafts = false
+
+paginate = 1
+canonifyurls = true
+[permalinks]
+  post = ":year/:month/:day/:title"
+  fixed = ":title/"
+
+pygmentsuseclasses = true
+
+[params]
+  title = "A Procrastinator's Refuge"
+  tagline = "A complete diary"
+  author = "Matei-Alexandru Gardus"
+  description = "Coder. Hardware enthusiast. Procrastinator. Here are my adventures in wasting time (or not, I don't know)."
+  [params.github]
+    url = "https://git.stormhub.io/StormFireFox1/Refuge"
+    head = "master"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/gohugoio"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/gohugoio"
+  [[params.social]]
+    name = "email"
+    url = "mailto:matei@gardus.eu"

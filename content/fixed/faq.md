@@ -43,6 +43,7 @@ I honestly don't really remember, computers have been a part of my life ever sin
 ## What are your favorite programming languages?
 
 My favorite languages are numerous, but my absolute favorites and most used are:
+
 * C++
 * Go
 * Python

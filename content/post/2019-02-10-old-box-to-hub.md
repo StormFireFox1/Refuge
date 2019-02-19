@@ -55,7 +55,10 @@ Well, I wanted to have:
 
 Well, I have my objective, let the games begin.
 
-![I'm dying here.](/public/img/me-cracking-my-knuckles.gif)
+{{< highlight bash >}}
+root@STORMHUB_NODE_1:~# crack_knuckles
+Cracking......................
+{{< / highlight >}}
 
 ---
 
@@ -247,7 +250,7 @@ server {
 }
 {{< / highlight >}}
 
-![Redirecting in action.](/public/img/redirecting-to-https.jpg)
+![Redirecting in action.](/public/img/redirecting-to-https.gif)
 
 And...does it work? Yes, it does. Great. Now for the passwords!
 
@@ -387,9 +390,10 @@ root@STORMHUB_NODE_1:~# ufw enable
 Simple, right? Let's test it.
 
 ![Picture of Bitwarden loading even with the firewall on.](/public/img/bitwarden-firewall-problem.jpg)
+
 > Wait, what the...
 
-* sigh * Alright, alright, fine. I never really trust anything over the machine level. I started diving in to see
+***sigh*** Alright, alright, fine. I never really trust anything over the machine level. I started diving in to see
 why that didn't work. Simplest way to check is to check what file *ufw* actually edits, the iptables list, let's
 see what that said.
 
@@ -435,6 +439,7 @@ audited and open-source! I'm loving it. Surprisingly enough, they're not as reso
 using only ~2 GB out of all the available RAM. Nice. Maybe I'll slap on some extra stuff.
 
 ![Stormhub "htop" output when fully operational.](/public/img/stormhub-node1-htop-running.jpg)
+
 > Thanks, Microsoft SQL, for ruining my **htop** output.
 
 Alright, now I'm in the mood for some JavaScript, and that's rare. Let's see what comes out of it.

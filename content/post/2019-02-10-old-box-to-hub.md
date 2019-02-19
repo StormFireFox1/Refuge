@@ -1,6 +1,7 @@
 +++
 title = "From a sitting box to a busy hub"
-date = 2019-02-10T16:30:10+02:00
+date = 2019-02-20T12:30:00+02:00
+pubdate = 2019-02-20T12:30:00+02:00
 draft = false
 weight = 0
 tags = ["networking", "software", "coding", "go", ""]

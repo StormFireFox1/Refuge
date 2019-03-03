@@ -164,7 +164,7 @@ root@STORMHUB_NODE_1:~# systemctl restart nginx
 
 ![The StormHub site being online and running.](/public/img/stormhub-site-example.jpg)
 
-But, as you can probably tell, I'm not satisfied with HTTP. I mean, after all, it's very important add HTTPS to your server, even
+But, as you can probably tell, I'm not satisfied with HTTP. I mean, after all, it's very important to add HTTPS to your server, even
 if it's a static site, simply because it'll be easier to have HTTPS on your other servers as well. But usually, SSL certificates
 cost, right? Nope.
 

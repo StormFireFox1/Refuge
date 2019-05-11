@@ -9,8 +9,8 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post">Posts</a>
+    <a class="sidebar-nav-item {{ if eq .Permalink "/" }} active {{ end }}" href="/">Home</a>
+    <a class="sidebar-nav-item {{ if eq .Permalink "/post/" }} active {{ end }}" href="/post">Posts</a>
 
     {{ $thisperma := .Permalink }}
     {{ range .Site.Pages.ByWeight }}
@@ -27,7 +27,7 @@
     <a href="https://github.com/StormFireFox1">
       <i class="fab fa-github"></i>
     </a>
-    <a href="mailto:matei@gardus.eu">
+    <a href="mailto:matei@gard.us">
       <i class="far fa-envelope"></i>
     </a>
     <a href="/post/index.xml">

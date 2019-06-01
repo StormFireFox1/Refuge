@@ -65,15 +65,3 @@ There are a few things up there on my list:
 ## Can we get familiar?
 
 Sure we could! Hit me up with an [e-mail](mailto:matei@gardus.eu)!
-
-# Wait, I know that profile picture!
-
-Quite correct, the profile picture is not of my creation. Good catch!
-
-For those unaware, that is the logo of SIVA, a nanovirus that debuts in the game Destiny, in the Rise of Iron expansion. Its Wikipedia entry reads:
-
-> SIVA was once a Golden Age breakthrough in self-assembling, self-replicating nanotechnology, created by Clovis Bray to accelerate humanity's colonization effort. The technology had the ability to create nearly anything that anyone could ever need. It would be used to create new structures and colonies on new worlds faster than regular construction methods. It was considered as an amazing breakthrough in technology.
-
-I consider a technology like SIVA's initial design a dream that humanity would definitely want to achieve. However, as you can probably imagine, SIVA
-obviously didn't end up as intended in the game. Most of my projects are just random creations, much to the dismay of those around me. And since SIVA
-is pretty much a creator of random things in the game, I (currently) identify with its intentions :)

@@ -86,7 +86,7 @@ but Emacs is too hard, so what am I left with?
 Vim! Of course, the biggest enemy of every non-terminal-savvy programmer of
 computer user in the **world**. It doesn't matter who you are, you have been
 stuck in Vim without being able to quit from it at least once in your computer
-cience career. At least that's how the joke goes, right?
+science career. At least that's how the joke goes, right?
 
 ![Yeah, yeah, we all get stuff in Vim sometimes.](/public/img/vim-welcome.jpg)
 
@@ -174,7 +174,7 @@ I used [Mopidy](http://mopidy.com/) which is a really cool daemon for the MPD
 protocol, the standard way of listening to music from your terminal. Mopidy
 comes with a lot of configuration, but I personally simply added to it the
 Spotify backend, along with some local music that I didn't have on Spotify. I
-did later add a Podcast backend for the very few podcasts I ocasionally listen
+did later add a Podcast backend for the very few podcasts I occasionally listen
 to, and a scrobbler for Last.fm. However, you're probably asking:
 
 > "But where's the terminal client for the music?

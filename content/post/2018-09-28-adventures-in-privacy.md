@@ -118,7 +118,7 @@ e-mails or just short messages, maybe even streams of data! The concept essentia
 First off, I had to make some keys. Now there are *too many* tutorials online on how to do that, but by far the best one (and the one I used) is
 [this one](https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages). However, the tutorial does not have an
 alternative for Windows. To get GPG for Windows, you'll need [GPG4Win](https://www.gpg4win.org/) (very original name). After the installation
-process, both versions of GPG are pretty much the same, except for maybe filepaths.
+process, both versions of GPG are pretty much the same, except for maybe file paths.
 
 When you finish generating your keypair, you'll get a nice little key with a key ID. Note that down, you'll need it. It's a 8-character string, like mine:
 
@@ -187,27 +187,27 @@ Oh, nice! Let's get them!
 The pinnacle of online security: a physical security key!
 
 A security key can be used to lock many different service behind a physical device that you keep on you. There are many DIY versions of this
-(technically my DigiSparks are a kind of security key), but by far the most reliable and popular are the [YubiKeys](https://www.yubico.com/product/yubikey-5-nfc/).
-I personally bought the Yubikey 4 and YubiKey NEO, since I wanted one to use for my phone and one for the computer as backup. I know, they're not
+(technically my DigiSparks are a kind of security key), but by far the most reliable and popular are the [Yubikeys](https://www.yubico.com/product/yubikey-5-nfc/).
+I personally bought the Yubikey 4 and Yubikey NEO, since I wanted one to use for my phone and one for the computer as backup. I know, they're not
 Series 5, but I bought them before those were released by 3 days. Just my luck.
 
 ![Here they are. They're kinda high-tech.](/public/img/my-yubikeys.jpg)
 
-Now, the YubiKeys can be used for a ton of stuff. They support FIDO U2F, so you can use them to have 2-factor authentication for Google, Twitter,
+Now, the Yubikey can be used for a ton of stuff. They support FIDO U2F, so you can use them to have 2-factor authentication for Google, Twitter,
 Facebook, GitHub, Dropbox, etc. This is already pretty useful instead of typing the same codes all the time, right? Additionally, they can store
 different security standards for other programs, including GPG and KeePass ;)
 
 So you can guess what comes next...
 
-## Integrating YubiKey 4 with GPG
+## Integrating Yubikey 4 with GPG
 
 This is obviously pretty annoying and hard, so I won't pad this article much more. A good tutorial I found is by [@ageis](https://github.com/ageis) and
 you can find it [here](https://gist.github.com/ageis/14adc308087859e199912b4c79c4aaa4). It's pretty damn comprehensive, but you need to remember
-a few things. YubiKey NEO only supports 2048-bit GPG keys, so if you did those, then you're fine, but if you generated 4096-bit GPG keys (like I did),
-then you need to use the YubiKey 4 for that.
+a few things. Yubikey NEO only supports 2048-bit GPG keys, so if you did those, then you're fine, but if you generated 4096-bit GPG keys (like I did),
+then you need to use the Yubikey 4 for that.
 
-After using the GitHub gist above, I can just plug the YubiKey in my computer whenever I use GPG and I get
-a sweet prompt for the PIN to use the YubiKey. I just input the PIN, and done!
+After using the GitHub gist above, I can just plug the Yubikey in my computer whenever I use GPG and I get
+a sweet prompt for the PIN to use the Yubikey. I just input the PIN, and done!
 
 ![It's a cool PIN.](/public/img/yubikey-gpg-pin-entry.jpg)
 

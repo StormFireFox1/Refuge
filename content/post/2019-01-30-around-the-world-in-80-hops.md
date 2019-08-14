@@ -95,7 +95,7 @@ when in reality, it never is. And the problems started showing up very soon.
 For starters, our VPN tunnel would frequently drop due to unnatural circumstances (i.e. power outages, random person
 tripping over a plug, as is often the case in my house), so I had to find a way to automatically restart the VPN
 tunnel whenever I needed to. I did so by essentially adding **cron jobs** (scheduled tasks in Linux) that would run
-periodically to check whether our VPN tunnel was still up and running, and if not, to reenable it and send my father
+periodically to check whether our VPN tunnel was still up and running, and if not, to re-enable it and send my father
 an e-mail telling him of the outage so we know if something went wrong.
 
 ```bash
@@ -177,7 +177,7 @@ by "modifying network address information in the IP header of packets while they
 Essentially, you have to find a way to manually change the IP header before it his encryption so that you can redirect
 the packet at the right address on the other side of the tunnel (oh, this has to be done on both sides of the tunnel as well,
 so you can't shortcut your way out of this). In the end, I managed to fix the problem by configuring the switches on both
-sides of the VPN tunnel to modify the IP header on both sides using predefined rules which, while very hardcoded, work well
+sides of the VPN tunnel to modify the IP header on both sides using predefined rules which, while very hard coded, work well
 for our case.
 
 Finally, everything seems fine...right?

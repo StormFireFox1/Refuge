@@ -185,10 +185,10 @@ After about a month of work, I decided to check up on his side of the code and s
 ![He didn't.](/public/img/a-linters-nightmare.jpg)
 He didn't.
 
-See that? That's IntelliJ's scrollbar. It shows you the warnings in yellow from the current file, for you to conveniently find and fix them.
-Chad's scrollbar was ***piss yellow.***
+See that? That's IntelliJ's scroll bar. It shows you the warnings in yellow from the current file, for you to conveniently find and fix them.
+Chad's scroll bar was ***piss yellow.***
 
-The grey parts of the scrollbar also shows you duplicate code, for you to refactor and put in a little function to call later. 
+The grey parts of the scroll bar also shows you duplicate code, for you to refactor and put in a little function to call later. 
 Literally 25% of one of his source files was duplicate code. Now *that* is an achievement.
 In total, Chad had 51 instances of duplicate code and 875 typos. Now the typos kind of don't count, primarily because Romanian isn't a default
 language for IntelliJ and also because Chad didn't use camelCase variable naming, which is needed if you want IntelliJ to read typos right.

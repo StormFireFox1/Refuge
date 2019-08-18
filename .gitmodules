@@ -1,0 +1,6 @@
+[submodule "themes/lanyon-hugo"]
+	path = themes/lanyon-hugo
+	url = https://github.com/tummychow/lanyon-hugo
+[submodule "themes/m10c"]
+	path = themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c

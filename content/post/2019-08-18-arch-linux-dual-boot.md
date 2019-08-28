@@ -3,7 +3,7 @@ title = "Making Windows and Linux hold hands is interesting"
 date = 2019-08-18T16:44:28+03:00
 draft = false
 weight = 0
-tags = ["terminal", "sysops", "productivity", "vim", "os", "arch", "linux"]
+tags = ["terminal", "sysops", "productivity", "vim", "OS", "arch", "Linux"]
 categories = ["System Administration"]
 +++
 
@@ -15,7 +15,7 @@ system, most of which were admittedly my fault, caused by my faulty
 installation.
 
 Particularly, the biggest problem was the graphics. My laptop has dual graphics,
-an integrated Intel HD Graphics 630 and an Nvidia Quadro M2200, both which are
+an integrated Intel HD Graphics 630 and an NVIDIA Quadro M2200, both which are
 fantastic graphics cards for rendering video and for the occasional video
 gaming. However, Ubuntu really doesn't handle hybrid graphics well (or, at
 least, that's what I thought when I installed it), so I decided, back then, to
@@ -33,16 +33,16 @@ if you messed with their "organs"). Since Windows is an operating system
 designed on the idea of backwards compatibility and stability at a hardware
 level (hence its rise during the driver problem in the late 20th century), every
 single change on a hardware level can screw with not only Windows, but
-applications that relied on certain hardware optimisations to run.  And of
+applications that relied on certain hardware optimizations to run.  And of
 course, you can imagine the amount of issues that arose when Windows saw that
-one graphics card *mysteriously dissappeared* (it didn't, but only we knew
+one graphics card *mysteriously disappeared* (it didn't, but only we knew
 that).
 
 Even Ubuntu wasn't liking the disappearance of the integrated graphics card.
 While some video games were working, and most applications ran just fine, the
 battery life was horrendous, due to the discrete graphics card constantly
 running and draining battery at maximum performance. In addition, screen tearing
-occured pretty much all the time, possible due to some misconfiguration in the X
+occurred pretty much all the time, possible due to some misconfiguration in the X
 server of the computer. Regardless, the peak of my disapproval with my setup was
 the appearance of not only constant glitches on the Windows side (not even the
 browser worked well, it would constantly freeze and lock up), but also of my
@@ -53,7 +53,7 @@ first ever blue screen:
 At this point, I finally decided it was the last straw. After finally finishing
 with high school (yes, I'm done!), completing all of the immediate obligations I
 had for my transition to college, and thus finally getting some free time in my
-summer vacation, I finally commited to reinstalling my Linux OS.
+summer vacation, I finally committed to reinstalling my Linux OS.
 
 And then I thought:
 
@@ -70,7 +70,7 @@ I use Arch, btw.
 Let me start off by saying that, in my opinion, Arch Linux really isn't for
 everyone. However, I would also like to mention that a lot of people think that
 Arch Linux is a difficult Linux distribution to use. Today, I would like to
-dispell that notion.
+dispel that notion.
 
 For those here that might not know, Arch Linux is a rolling-release distribution
 that claims to aim for a "Keep It Simple, Stupid" philosophy. Arch users can be,
@@ -81,7 +81,7 @@ reason:
 
 As you know, from my
 [previous article](/2019/05/10/back-to-the-basics-a-simple-terminal/),
-I thorougly enjoyed switching to terminals, and Arch Linux is a distribution
+I thoroughly enjoyed switching to terminals, and Arch Linux is a distribution
 designed to be simple and lightweight. Therefore, it allows me to build my
 workflow from the ground up, trimming out any fat. It also forces you to learn
 the intricacies of most Linux-level abstractions (not on the kernel level,
@@ -264,7 +264,7 @@ hence why I feel like doing so much more work! That's how everyone should feel
 when using a computer. You should feel at home, with the computer being an
 extension of you, bending to your will and helping you shape the world.
 
-Maybe you can try changin your computer too, I'm certain you'll feel the same
+Maybe you can try changing your computer too, I'm certain you'll feel the same
 way.
 
 ---

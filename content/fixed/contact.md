@@ -8,11 +8,17 @@ tags = ["meta", "contact"]
 categories = ["Meta"]
 +++
 
-So, you'd like to keep in touch with me? Yay, new friend! Ok, uhh...
+So, you'd like to get in touch with me? Yay, new friend!
 
-I have a [Twitter](https://twitter.com/Storm_FireFox1) account, so I guess that's one.
-I also have an [e-mail](mailto:matei@gard.us), so that's one as well.
+I have a [Twitter](https://twitter.com/Storm_FireFox1) account, so I guess
+that's one place to try and reach me. I also have an
+[e-mail](mailto:matei@gard.us) that I respond to way more frequently, so there's
+that, too.
 
-If you're a security nut, I guess you could use [this](/public/doc/storm_firefox1.asc) GPG public key. (ID `2FB5275E`, Fingerprint `7A3C 6089 D16D AE3C B901  4936 5B45 E5FF 2FB5 275E`) You could also get the public key from the GPG keyservers, just use the ID above.
+If you're a security nut, you can use
+[this](/public/doc/storm_firefox1.asc) GPG public key. (ID `2FB5275E`,
+Fingerprint `7A3C 6089 D16D AE3C B901  4936 5B45 E5FF 2FB5 275E`) You could also
+get the public key from the GPG key servers, just use the ID above.
 
-Other than that, I'm sure I'll add what more I have as time goes by. If you want my phone number, just e-mail me.
+These are the best ways to reach me. I'll add more contact methods as time goes
+by.

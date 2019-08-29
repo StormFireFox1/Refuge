@@ -7,7 +7,7 @@ sidebar = true
 weight = 1
 +++
 
-I'm Matei-Alexandru Gardus. I am a student at "Tudor Vianu" National Computer Science High School, and I have been taking a shot at computer science for a while now. I like coding various gadgets and gizmos for myself, friends or even freelance around with close friends.
+I'm Matei-Alexandru Gardus. I am a student at UC San Diego and I have been taking a shot at computer science for a while now. I like coding various gadgets and gizmos for myself, friends or even freelance around with close friends.
 
 I'm a master procrastinator at heart, as this blog suggests. However, I like to consider myself a *productive* procrastinator. In other words, I like to do something related to a topic as a procrastinating activity.
 
@@ -20,11 +20,13 @@ You get the idea.
 
 Currently I have two big side-projects I'm working on:
 
-* A website to manage the class fund written in Java (I need to learn to write servers in the Java ecosystem, but it's pain)
-* A journal of my journey throughout all of the programming languages I've ever used in my life, *HelloWorld*. You can check it out on [GitHub](https://github.com/StormFireFox1/HelloWorld).
+* A secret project which involves facial recognition (can't talk about it yet)
+* A universal lock than can be placed on any door with a key inside, which can
+  allow for a person to either unlock the door with a copy of the original key
+  or a previously programmed security key (I call it the Omnilock)
 
 Wanna stalk me on social media? I'm not too present there, but I do have a few accounts on some websites. Check out the [Contact](/contact) page.
 
 Wanna know even more about me? Check out the [FAQ](/faq).
 
-This site was built with the m10c theme. You can check it out [here](https://github.com/vaga/hugo-theme-m10c).
+This site was built with the Lanyon theme. You can check it out [here](https://github.com/tummychow/lanyon-hugo).

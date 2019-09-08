@@ -257,6 +257,14 @@ done on Windows: video editing and video gaming. Fortunately enough, the
 times in which I do either almost always never overlap with times I use Linux
 (coding, doing anything else).
 
+*Update (2019-09-08): After a bit of browsing around, I ended up fixing the
+video gaming problem by installing* [proprietary NVIDIA
+drivers](https://wiki.archlinux.org/index.php/NVIDIA) *and then using*
+[optimus-manager](https://wiki.archlinux.org/index.php/NVIDIA_Optimus#Using_optimus-manager)
+*to allow for switching between graphics cards. There were a few ACPI issues
+that were specific to my laptop that I had to fix as well, but hopefully you
+won't have them if you try the same thing. When in doubt, read the wiki!*
+
 I'm happy with the way it turned out, though. Compared to the incomprehensible
 chaos that was my computer before, now it's clean, lean, and works splendidly.
 But even more important is the fact that I love using it now more than ever,

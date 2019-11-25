@@ -190,7 +190,7 @@ Of course, having a shell isn't enough. You will need a desktop environment, a
 bunch of programs, a terminal emulator...
 
 > Wait, what? Don't those come with the OS?
-> 
+>
 > -You, probably
 
 No, they don't. And I think we all learn that the hard way.
@@ -211,7 +211,7 @@ you'd expect a computer to come with (like a browser). There's just, well...
 A shell.
 
 ```
-[root@ARCHLINUX]:~$ 
+[root@ARCHLINUX]:~$
 ```
 
 Of course, just as I did, you'll probably want more, but the beauty of Arch
@@ -282,3 +282,5 @@ to [contact](/contact) me.
 
 I'm also thinking of making a comment section, but I'll think about it. I don't
 have to do it *today*...
+
+*Update (2019-11-24): Comments are live all over the blog!*

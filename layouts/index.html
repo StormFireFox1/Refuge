@@ -9,7 +9,7 @@
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}<br>{{ .ReadingTime }} min read</span>
         {{ .Content }}
-    	<a href="{{ .Permalink }}#after-commento">Engage in comments!</a>
+    	<a href="{{ .Permalink }}#comments-section">Engage in comments!</a>
     </div>
   {{ end }}
 </div>

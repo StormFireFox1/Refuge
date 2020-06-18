@@ -241,6 +241,12 @@ _almost 24 hours of the day!_  First off, the server’s members had a wider
 variety of sleep schedules than I previously expected; no one sleeps only 3
 hours a night, and the times the server didn’t have messages is very small.
 
+If you're a member of ACM's Discord, you might already notice that members
+are incredibly active at around 2 AM, but this isn't really reflected in the
+heatmap. This is mostly because members are active in voice channels at
+around that time, and voice channel times are not easily exportable, nor
+present in my dataset.
+
 One could also do this to look at one person’s messaging habits by filtering
 all the chat messages to only include the specific user’s messages, and you can
 get a similar heatmap. Here’s mine:

@@ -8,7 +8,7 @@ categories = ["Privacy"]
 +++
 
 Ever since the huge [Equifax breach](https://www.theguardian.com/us-news/2017/sep/07/equifax-credit-breach-hack-social-security)
-that pretty much spooked the living crap out of over 100 million people in the United States, I have been acutely aware of anything
+that pretty much spooked the living hell out of over 100 million people in the United States, I have been acutely aware of anything
 regarding privacy. It has long been a known fact that corporations not only
 [poorly protect our data](https://news.ycombinator.com/item?id=15395946), but also sell all of our information to third parties,
 for usages such as [ad targeting](https://mashable.com/2018/02/14/facebook-spam-2fa/). However, if this happens, there is no limit
@@ -23,7 +23,7 @@ homework), it was the perfect opportunity to start securing my life.
 
 So, what do we deal with first?
 
----
+* * *
 
 # Passwords
 
@@ -38,8 +38,8 @@ Google Takeout.
 Google Takeout is a rather useful (and ethical) service that Google offers in order for you to request a backup for all of the
 data that you Google account possesses, from YouTube subscriptions to Google Drive files.
 
-![The archive is fucking massive, 38GB for my measly little Google account!](/public/img/google-archive-screencap.jpg)
-> Holy shit, 38GB! That's massive!
+![The archive is massive, 38GB for my measly little Google account!](/public/img/google-archive-screencap.jpg)
+> Holy cow, 38GB! That's massive!
 
 This way you can get all the information that Google has on you, while also getting some nice organized files to boot! For instance,
 I used this service to create vCard files of all my Google contacts to import in my personal e-mail client, Thunderbird
@@ -62,11 +62,11 @@ just have a plain text file going around with my password. So I had to improvise
 
 ## A little detour from passwords to DigiSparks
 
-> The easiest way to remember a password is to have some other device remember it for you.
+> _"The easiest way to remember a password is to have some other device remember it for you."_
 >
 > -Me, when too lazy to remember a password
 
-I mean, I had a point. But not too much of one. In hindsight, it would've been better if I just never did this, but you never know.
+I mean, I had a point. But not too much of one. In hindsight, it would've been better if I just never did this, but I am young, I can make mistakes.
 I very quickly had my eyes set on a particular device that could solved my problem, called [DigiSpark](http://digistump.com/products/1).
 A DigiSpark is a little ATTiny85 circuit with a USB on it that you can program just like an Arduino. It's *super cheap* (just $8) and you can use
 for some pretty fun stuff. For instance, you can program it to act like a Human Interface Device, which can *send keystrokes to the computer*. You can
@@ -77,7 +77,7 @@ And they're just 8 bucks...uuhhh...
 ![Buy!](/public/img/digispark-purchase.jpg)
 > Instant buy!
 
-Yeah, I got two. I'm filthy rich, deal with it. Anyway, I quickly programmed them to quickly output the 256-character master password on any computer after
+Yeah, I got two. Anyway, I quickly programmed them to quickly output the 256-character master password on any computer after
 plugged in for 3 seconds. Put in, pull out, logged in. Easy enough for cheap, right?
 
 ![This is me coding both, I kept one for backup.](/public/img/digispark-hid-source.jpg)
@@ -86,7 +86,7 @@ And up top you have the source code, which you would find anyway under "File" > 
 
 So now that's done. What next can I secure?
 
----
+* * *
 
 # Encrypting files
 
@@ -180,13 +180,13 @@ Hold up, I need a Google search.
 
 Oh, nice! Let's get them!
 
----
+* * *
 
 # Security keys
 
 The pinnacle of online security: a physical security key!
 
-A security key can be used to lock many different service behind a physical device that you keep on you. There are many DIY versions of this
+A security key can be used to lock many different services behind a physical device that you keep on you. There are many DIY versions of this
 (technically my DigiSparks are a kind of security key), but by far the most reliable and popular are the [Yubikeys](https://www.yubico.com/product/yubikey-5-nfc/).
 I personally bought the Yubikey 4 and Yubikey NEO, since I wanted one to use for my phone and one for the computer as backup. I know, they're not
 Series 5, but I bought them before those were released by 3 days. Just my luck.
@@ -216,7 +216,7 @@ But that's a bit more work, which I'll explain in a future blog post, probably.
 
 ![Check out that sweet verified badge!](/public/img/sweet-github-badge.jpg)
 
----
+* * *
 
 # What next?
 
@@ -225,4 +225,4 @@ There are many things that I still want to do in order to have more privacy and 
 - integrate my devices with push notifications between each other
 - ...who knows what else?
 
-I hope you enjoyed my little trip through needless additional encryption of my life. If you want any help with the items above, just [contact](/contact) me.
+I hope you enjoyed my little trip through needless additional encryption of my life.

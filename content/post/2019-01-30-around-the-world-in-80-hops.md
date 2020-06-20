@@ -12,7 +12,7 @@ categories = ["Privacy"]
 *same title. Anything that might seem out of context is most likely explained by reading this article directly*
 *from the magazine itself.*
 
----
+* * *
 
 Hello everyone! I'm Matei Gardus, a programmer with a knack for side-projects and insane complications
 and min-maxing over every aspect of my life. I hope you enjoy this first issue of Stempathy.
@@ -25,7 +25,7 @@ their benefits, I couldn't idly stay being complacent; I wanted to find a way to
 Romania legally and in an efficient way.
 Luckily for me, I had a lead on how to do just that.
 
----
+* * *
 
 ## A friend
 
@@ -48,7 +48,7 @@ We have an US-based IP available to us, so we could theoretically access all the
 services using it. But how could we do that from Romania? Well, that took a *lot* of work and quite
 a bit of tinkering.
 
----
+* * *
 
 ## VPNs everywhere
 
@@ -84,7 +84,7 @@ worked...
 
 Except when it didn't.
 
----
+* * *
 
 ## Meet The Problems
 
@@ -146,7 +146,7 @@ house either. Network packets were randomly dropped for no reason and some packe
 lost through the tunnel. Something was wrong with my tunnel and I didn't know what. After a bit of debugging, though,
 I finally figured out the problem: NAT.
 
----
+* * *
 
 ## NAT: The Final Boss
 
@@ -182,7 +182,7 @@ for our case.
 
 Finally, everything seems fine...right?
 
----
+* * *
 
 ## Room for improvement
 

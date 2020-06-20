@@ -24,8 +24,9 @@ option. That was a bad idea. Why?
 
 Well, Windows doesn't like change.
 
----
-# Windows is a little baby sometimes
+* * *
+
+## Windows is a little baby sometimes
 
 I'm not kidding, every once in a while, Windows likes to really pull tantrums
 whenever it sees certain hardware or BIOS changes (I mean, anyone would be angry
@@ -64,8 +65,9 @@ I know what you're thinking, and yes, that's when I became an Arch Linux user.
 
 I use Arch, btw.
 
----
-# Arch Linux is cool
+* * *
+
+## Arch Linux is cool
 
 Let me start off by saying that, in my opinion, Arch Linux really isn't for
 everyone. However, I would also like to mention that a lot of people think that
@@ -90,8 +92,9 @@ try Linux From Scratch. But for now, I'll settle with Arch.
 
 Also, if you're a DIY kind of guy, Arch will be right up your alley.
 
----
-# Time to clean house (I mean PC)
+* * *
+
+## Time to clean house (I mean PC)
 
 Well, things started safely here. Firstly, I pulled out the hard drive which
 contained my Ubuntu installation and backed it up as a disk image:
@@ -115,8 +118,9 @@ exactly the same as in the packaging (with the exception of one 2TB NTFS drive,
 but that guy never screwed anything up, now did he?) and, lo and behold, soon
 enough, things started to look up.
 
----
-# Sometimes, Windows fixes itself
+* * *
+
+## Sometimes, Windows fixes itself
 
 I have had multiple times when I screwed things over in Windows (hey, I was a
 kid once, too) and every once in a while, I'll admit that Windows impresses me.
@@ -145,8 +149,9 @@ necessary, no screwing with other settings, and most importantly, making sure
 Linux will play nicely with Windows (or rather, the other way around). Now how
 do we do that?
 
----
-# Let's do it ourselves
+* * *
+
+## Let's do it ourselves
 
 Most let installation scripts install their operating system. Not this time.
 Arch Linux's installation process is a relatively hands-on operation (at least,
@@ -195,8 +200,9 @@ bunch of programs, a terminal emulator...
 
 No, they don't. And I think we all learn that the hard way.
 
----
-# OSes have loads of bloat
+* * *
+
+## OSes have loads of bloat
 
 A base installation of Arch Linux clocks in at around 800 megabytes of disk
 space. Now, you probably think that's very small, and rightfully so! I mean,
@@ -218,8 +224,9 @@ Of course, just as I did, you'll probably want more, but the beauty of Arch
 Linux is that *you get to pick how much more.* While some may find that
 time-consuming and useless, I find it liberating.
 
----
-# Remember: read the whole wiki
+* * *
+
+## Remember: read the whole wiki
 
 This is a reminder for you as much as it is for myself, because I also always
 forget to read the wiki to find solutions to my problems. It's a huge place, and
@@ -244,8 +251,9 @@ went on to my liking. I would recommend you test it out first with a new user
 before actually diving into the whole setup. If you simply install it with no
 idea what's awaiting you, it won't be fun.
 
----
-# So, does this whole thing work?
+* * *
+
+## So, does this whole thing work?
 
 Kind of. There are still a few issues with my computer that I will never be able
 to fix. For instance, there is no open-source driver that works with my graphics
@@ -275,10 +283,11 @@ extension of you, bending to your will and helping you shape the world.
 Maybe you can try changing your computer too, I'm certain you'll feel the same
 way.
 
----
+* * *
+
 If you want help with Arch Linux, check the wiki (gotcha). *But* if you have
 questions regarding my setup, and how I'm faring with my new PC, don't hesitate
-to [contact](/contact) me.
+to email me.
 
 I'm also thinking of making a comment section, but I'll think about it. I don't
 have to do it *today*...

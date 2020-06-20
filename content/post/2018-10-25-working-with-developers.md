@@ -17,9 +17,9 @@ libraries and algorithms and casting it into a mold of your design, to create a 
 when you're alone, you have complete freedom of the mold. But alas, *we are all only human*. We can't do everything alone,
 we need company. So imagine my surprise when, as soon as I had this realization, an opportunity arose.
 
----
+* * *
 
-# A commission
+## A commission
 
 For the purposes of privacy, I'll keep everyone's name as secret as I can in this post. Last year, one of the teachers at
 my school approached me with a little project: an educational software for the school, in order for said teacher to use to 
@@ -33,9 +33,9 @@ entirely written by me. I picked Java because it was the quickest way to get a c
 much of a hassle or making a website instead. I picked Go for the server because I wanted to try the language out with a nice
 server and make something new and exciting.
 
----
+* * *
 
-# This is where the *fun* begins (ha)
+## This is where the *fun* begins (ha)
 
 Obviously, I realized a true educational software for the purposes that my teacher asked for was not something I could do alone, so
 I decided to take someone else along for the ride. Now the recruit very specifically asked I don't mention his name in this post, so I'll
@@ -55,9 +55,9 @@ You know what he said?
 
 > "What's Git?"
 
----
+* * *
 
-# ...
+## ...
 
 It is absolutely insane how many developers have worked on projects and have never used at least one type of version control. There is so
 many: [Git](https://git-scm.com/), [Subversion](https://subversion.apache.org/), [Mercurial](https://www.mercurial-scm.org/) and all of
@@ -75,9 +75,9 @@ In the end, I had to teach Chad everything he would have to know to properly cod
 
 We started off nice and simple.
 
----
+* * *
 
-# Git
+## Git
 
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects
 > with speed and efficiency.
@@ -117,9 +117,9 @@ appears towards the end) simply because Chad found it difficult to collaborate w
 
 Alas, that was the least of my problems.
 
----
+* * *
 
-# Documentation
+## Documentation
 
 By far the most important thing to do when working with others is to write documentation for your code. Documentation allows for you to not
 only clear your mind by explaining what your code does, but also help other coders, now or in the future, to understand your code. This is
@@ -148,23 +148,23 @@ And as you can see, I thoroughly documented my code. In fact, I can assure you t
 
 Compare that with fellow Chad's code:
 
-![I'm fucking screwed.](/public/img/no-documentation-example.jpg)
+![I'm screwed.](/public/img/no-documentation-example.jpg)
 
 His code has almost *no* documentation at all. And if there is any documentation, it doesn't really explain anything. It's mostly just added there
 so that I can stop annoying him:
 
 ![Here's some documentation.](/public/img/some-documentation-example.jpg)
 
-Yeah, no shit, I figured that out by myself, it's literally in the method's name!
+Yeah, no duh, I figured that out by myself, it's literally in the method's name!
 
 Anyway, this has rendered Chad's code unmaintainable, not only by me, but even by himself, since not even *he* remembers what he wrote in some
 sleepless night with 3 pots of coffee desperately chugged.
 
 Of course, this wasn't even the bad news' final form!
 
----
+* * *
 
-# Linter warnings
+## Linter warnings
 
 When I started the project, I urged Chad to use the IntelliJ IDEA IDE to work on our project. It's a pretty damn good IDE that I wholly 
 recommend you use when working on big Java projects. The reason why I urged him to use it is because it comes with an automatic linter
@@ -183,10 +183,11 @@ I was wrong to believe him.
 After about a month of work, I decided to check up on his side of the code and see what it looked like, see if he followed my advice:
 
 ![He didn't.](/public/img/a-linters-nightmare.jpg)
+
 He didn't.
 
 See that? That's IntelliJ's scroll bar. It shows you the warnings in yellow from the current file, for you to conveniently find and fix them.
-Chad's scroll bar was ***piss yellow.***
+Chad's scroll bar was ***completely yellow.***
 
 The grey parts of the scroll bar also shows you duplicate code, for you to refactor and put in a little function to call later. 
 Literally 25% of one of his source files was duplicate code. Now *that* is an achievement.
@@ -205,9 +206,9 @@ When I asked him to fix all the warnings as the final brush-up on our project, y
 
 > "If it ain't broke, don't fix it. And trust me, you'd code it worse without me!"
 
----
+* * *
 
-# The End of the Journey
+## The End of the Journey
 
 In the end, I finished my parts of the project and we released version 1.0 of VianuEdu. It was fine, it worked, albeit with a few GUI bugs we ironed
 out pretty quick (I wonder why there were any, Chad. Maybe the warnings were trying to tell you something). However, the experience taught me many things.
@@ -240,6 +241,3 @@ Maybe the person you'll be helping is you in the future, who will be a completel
 do it right.
 
 I hope that you will at least learn from my experience and perhaps integrate some of these good practices in your code and development teams as well.
-
-If you need any help to use Git, advice for clean code or just want to ask what else you can do to make coding with others easier, don't hesitate to
-[contact](/contact) me with questions.

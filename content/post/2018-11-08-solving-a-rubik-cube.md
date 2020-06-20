@@ -12,9 +12,9 @@ slowing down either, I've found myself with a very sudden need to relax with som
 time-wasting activity I could find on the web. So guess what? I replaced those with yet *another* time-wasting activity. Except
 this one is at least slightly more useful (but still pretty useless in the long run).
 
----
+* * *
 
-# Solving the Rubik's Cube
+## Solving the Rubik's Cube
 
 Ever since I saw one of my colleagues in 9th grade solve a Rubik's Cube I've felt pretty bad having to use online solver websites
 to solve a Rubik's cube but I've never gotten around to finding the time to learning all the algorithms. Besides, as far as I
@@ -38,9 +38,9 @@ at your disposal there. I used the Beginner's Method first, because I was a begi
 Guess what? After viewing the videos, I was able to solve the Rubik's Cube in a record time of 6 minutes! Wahoo, I did it! But I wanted
 to be faster. *A lot faster.*
 
----
+* * *
 
-# Picking up the pace
+## Picking up the pace
 
 It didn't take too long for me to decide to keep practicing the Beginner's Method in my spare time. Turns out in just about day, I ended up
 consistently hitting around 1 minutes and 10 seconds worth of solve time. At this point, I realized a stopwatch was ruining my chances at
@@ -59,11 +59,11 @@ which happens a lot during rides on the subway. It also comes with a neat graph 
 
 However, even so, I ended up hitting a dead-end on my times. It was almost as if I was limited by something. Even after learning legitimate CFOP (the general
 method of solving a 3x3 Rubik's Cube) with intuitive F2L (**F**irst **2** **L**ayers) and 4LL (**4**-**L**ook **L**ast Layer), my times were still over 1
-minute, which should not happen physically, because I was technically faster than before. I then figured out the problem
+minute, which should not happen physically, because I was technically faster than before. I then figured out the problem.
 
----
+* * *
 
-# My cube sucks!
+## My cube sucks!
 
 My 3-year-old, *unlubricated* and *chipped* Rubik's Cube 2.0 moved **really** badly. It would lock up on any turn faster than 1 a second, it would have its corners
 twist all the time, it was a complete and total mess. Its screws would get loose once every 20 solves as well. It made me incredibly annoyed that I would get bad
@@ -86,9 +86,9 @@ colleague's personal best, 27 seconds, with my time of 26.69 seconds!
 
 ![I'm the best (cuber)...around!](/public/img/my-best-cubing-time.jpg)
 
----
+* * *
 
-# What next?
+## What next?
 
 After getting the personal best of 26 seconds, I took a short break from practicing to get back to legitimate work, but I am still cubing to this day. Ever since
 my little rushed escapade with cubing, my entire class has been taken by storm by the cubing movement. My friends keep bringing extra cubes at school to have fun
@@ -98,9 +98,7 @@ to one of my colleagues, he's been doing it a lot more than me). Even McDonald's
 In all honesty, this has been incredibly satisfying, but I won't stop now. I'll keep going until I can get times under 10 seconds on solves, and who knows? Maybe I'll
 even try more complicated cubes then. I am happy with my new hobby, let's hope it lasts.
 
-Want to try this whole cubing thing out yourself? Want some tips from a complete noob? [PM](/contact) me.
-
----
+* * *
 
 *UPDATE (2019-01-07):* Since then, yours truly has managed to be a smart-ass and buy two other cubes, the MoYu Weilong GTS3LM and the GAN 356 X,
 so I did get the elusive cube eventually. The MoYu is incredibly nimble, while the GAN X is insanely smooth, much smoother than even the Gan Air

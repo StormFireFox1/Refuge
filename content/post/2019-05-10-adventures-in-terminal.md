@@ -32,8 +32,9 @@ computer at one time without it causing inconveniences to me.
 
 The answer? A terminal!
 
----
-# I love terminals!
+* * *
+
+## I love terminals!
 
 Honestly, they're super cool. Not only do they make you look like one of those
 l33t haxXxors, but they also make it incredibly easy to program with an actual
@@ -80,8 +81,9 @@ but Emacs is too hard, so what am I left with?
 
 ...Oh, no...
 
----
-# We meet again, Vim.
+* * *
+
+## We meet again, Vim.
 
 Vim! Of course, the biggest enemy of every non-terminal-savvy programmer of
 computer user in the **world**. It doesn't matter who you are, you have been
@@ -125,8 +127,9 @@ code before.
 
 ![A screenshot of my Vim setup on a C++ exercise.](/public/img/vim-screenshot.jpg)
 
----
-# Mail sucks less now, honestly.
+* * *
+
+## Mail sucks less now, honestly.
 
 By far my most disorganized part of my life was my e-mail. My old Gmail address
 looks horrible, and that is excluding the absolute monstrosity that is my Yahoo!
@@ -163,8 +166,9 @@ super simple process for singing and encrypting e-mails. Overall, I'd recommend
 you try it out, too. It might start off badly, but the pace will probably pick
 up soon.
 
----
-# Spotify in the terminal? No way.
+* * *
+
+## Spotify in the terminal? No way.
 
 Yeah, I use Spotify for music. I know, it's basic, but it gets the job done.
 Unfortunately, there's no officially supported terminal client for Spotify.
@@ -189,8 +193,9 @@ pretty cool, too!
 
 ![Me listening to music.](/public/img/tmux-music-screenshot.jpg)
 
----
-# Typing my thoughts in the terminal made me revision my previous workflow.
+* * *
+
+## Typing my thoughts in the terminal made me revision my previous workflow.
 
 You see, previously, I used Zim for my note-taking. I realized that,
 surprisingly enough, even *that* was too complicated. In addition, it lacked a
@@ -206,8 +211,9 @@ on my PC could be switched to a terminal fully! Amazing!
 
 ![Joplin in action.](/public/img/joplin-screenshot.jpg)
 
----
-# But what about the browser?
+* * *
+
+## But what about the browser?
 
 Alas, I cannot transfer my browser to a terminal (I mean, I could, but not
 fully), and I am ok with that. The problem with web browsers nowadays is that
@@ -227,7 +233,3 @@ myself going, and that's all you really need. If you ever need more, you can get
 it when you need it, but for now, all I need is a shell.
 
 And honestly, it might be all I ever need.
-
----
-If you're curious to join me on my journey of using terminals as your main
-workflow, you can [talk to me](/contact) about it at any time.

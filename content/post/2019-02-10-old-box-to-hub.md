@@ -24,9 +24,9 @@ Ergo, after literally 7 seconds of thought and consideration, I decided to take 
 put that old box to good use! After all, I have 4 gigs of RAM to use up, I'll fill them all, even if
 I have to use Chrome tabs to do so. But what did I need first?
 
----
+* * *
 
-# I need a domain!
+## I need a domain!
 
 Turns out going to a browser and typing the IP of a server is unappealing. Who knew? I needed a domain to
 make sure that you can simply access my blog from anywhere. I had one for the blog (still exists, it's
@@ -61,9 +61,9 @@ root@STORMHUB_NODE_1:~# crack_knuckles
 Cracking......................
 {{< / highlight >}}
 
----
+* * *
 
-# Blog and Landing Page
+## Blog and Landing Page
 
 The easiest thing to host on a server is a static site, since all you do is serve webpages, but the problem is
 serving multiple separate sites from the same server. Now that's different, and how do you do that? The easiest
@@ -83,9 +83,9 @@ Through black magic, of course.
 
 I suppose I had to pull the ultimate networking trump card out.
 
----
+* * *
 
-# Reverse proxies!
+## Reverse proxies!
 
 Reverse proxies are essentially the, well, reverse of the proxies you are probably aware of. HTTP proxies, normally,
 take the packets from a specific client and send them all from the server to whatever other site the client is
@@ -168,9 +168,9 @@ But, as you can probably tell, I'm not satisfied with HTTP. I mean, after all, i
 if it's a static site, simply because it'll be easier to have HTTPS on your other servers as well. But usually, SSL certificates
 cost, right? Nope.
 
----
+* * *
 
-# Thank you, Let's Encrypt!
+## Thank you, Let's Encrypt!
 
 [Let's Encrypt](https://letsencrypt.org/) allows people to get free SSL certificates that need to be renewed, provided you can
 prove the ownership of a domain (i.e. the A record of your DNS record points to the server you're issuing the certificate from).
@@ -255,9 +255,9 @@ server {
 
 And...does it work? Yes, it does. Great. Now for the passwords!
 
----
+* * *
 
-# An online password database?
+## An online password database?
 > But that can't be smart...or safe...eh, whatever.
 
 As you know, from [one of my previous posts](/2018/09/28/adventures-in-privacy-part-1-keys-everywhere/), I use a password
@@ -359,9 +359,9 @@ server {
 Turns out that it worked splendidly, and now I had both static sites and web apps easily configured
 on my reverse proxy. Still not done, though.
 
----
+* * *
 
-# Firewall Time
+## Firewall Time
 
 The rest of the setup was more or less a chore, since setting up the rest of the services was the same
 repetitive action: download the server, configure said server on different port than default HTTP, turn
@@ -431,9 +431,9 @@ and simply add `127.0.0.1:` in front of every mention of a port, and that solves
 
 Perfect! Stormhub is fully operational!
 
----
+* * *
 
-# Conclusion
+## Conclusion
 
 Now I have a pretty decent set of tools online that allow me to work in my own environment, and they're all safe,
 audited and open-source! I'm loving it. Surprisingly enough, they're not as resource-intensive as I estimated,

@@ -68,7 +68,7 @@ what better time to get started on having fun with the data!
 
 * * *
 
-## Getting the Data Out
+## Getting the data out
 
 This was the easiest part, mostly. The command log was essentially a CSV file,
 with `:` as its separator. In hindsight, this was a bad idea at the time I

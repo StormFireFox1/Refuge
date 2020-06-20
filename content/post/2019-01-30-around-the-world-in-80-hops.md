@@ -67,14 +67,14 @@ cohesive network (this is called a **site-to-site** VPN, as opposed to the **rem
 discussed). I used this type to link two separate networks together, one in my house and one at my
 friends' house.
 
-![A graphical representation of a VPN.](/public/img/vpn-representation.jpg)
+![A graphical representation of a VPN.](/images/vpn-representation.jpg)
 
 To set up a VPN server anywhere is not inherently complicated, most routers actually do come with the option
 to connect to a VPN server. Unfortunately for me, however, my friend's router could not host a VPN server
 normally, so we decided to ship our own solution there, an EdgeRouter 4 from Ubiquiti, which looks something
 like this:
 
-![Picture of the EdgeRouter 4.](/public/img/edgerouter-4.jpg)
+![Picture of the EdgeRouter 4.](/images/edgerouter-4.jpg)
 
 After getting it in there, I configured the VPN server, along with a few clients configured for my iPad, my PC,
 my dad's PC, etc. We had two Wi-Fi networks in our home, "Rares" and "Rares_us", one that was a simple access point

@@ -49,7 +49,7 @@ the appearance of not only constant glitches on the Windows side (not even the
 browser worked well, it would constantly freeze and lock up), but also of my
 first ever blue screen:
 
-![My first ever blue screen.](/public/img/my-first-blue-screen.jpg)
+![My first ever blue screen.](/images/my-first-blue-screen.jpg)
 
 At this point, I finally decided it was the last straw. After finally finishing
 with high school (yes, I'm done!), completing all of the immediate obligations I
@@ -242,7 +242,7 @@ them in my previous article.
 
 For those incredibly curious, here is a screenshot of how it looks now:
 
-![The screenshot of my desktop.](/public/img/screenshot-arch-linux.jpg)
+![The screenshot of my desktop.](/images/screenshot-arch-linux.jpg)
 
 If you would like a similar setup, you can check out [LARBS](https://larbs.xyz),
 a script for automatically installing a functional desktop environment with a

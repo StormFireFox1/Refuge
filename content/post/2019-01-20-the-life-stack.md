@@ -59,7 +59,7 @@ open-source, it's absolutely **amazing** because it has many ways to manage my p
 needed in order to get over my procrastination: just getting started. Now, I know, I know, why would I want to do that? I would end up with no
 material for my blog, but I'll find a way to procrastinate in a good way.
 
-![Amazing Marvin, woo!](/public/img/amazing-marvin.jpg)
+![Amazing Marvin, woo!](/images/amazing-marvin.jpg)
 
 > "!" means a day procrastinated, so you can see where I'm going with this.
 
@@ -73,7 +73,7 @@ better if I could handle it in a much more min-maxing kind of way. In the end, I
 which is *awesome*. Cronometer allows you to track your food intake, and it can even suggest what you should eat next. Pretty good stuff.
 I just spend around 15 minutes a day to make sure I input all the food into Cronometer and check my sleep, and we're done.
 
-![Cronometer daily entry and stuff.](/public/img/cronometer-daily-entry.jpg)
+![Cronometer daily entry and stuff.](/images/cronometer-daily-entry.jpg)
 
 * * *
 
@@ -86,7 +86,7 @@ data privacy scandals with them, so I went the open-source approach and picked [
 is essentially local RescueTime on PC, which works quite well. It pulls time entries by reading the active window's title and saving the time spent on it.
 At some point I will definitely contribute to the project, since it's quite well-done and the developers need the help.
 
-![ActivityWatch report](/public/img/activitywatch-report.jpg)
+![ActivityWatch report](/images/activitywatch-report.jpg)
 
 * * *
 

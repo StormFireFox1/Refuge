@@ -87,7 +87,7 @@ We started off nice and simple.
 >
 > -[https://git-scm.com](https://git-scm.com)
 
-![An example of a Git repository workflow.](/public/img/git-workflow-example.jpg)
+![An example of a Git repository workflow.](/images/git-workflow-example.jpg)
 
 That description might be very difficult to grasp. But the concept of Git is pretty simple.
 
@@ -110,7 +110,7 @@ from GitHub, which you can find [here](https://try.github.io/).
 Once I gave the same resources to Chad, he reluctantly ended up agreeing to use them, but even though Chad read most of the tutorials,
 he still didn't use Git to its full advantage.
 
-![Notice how the network has literally no branches now, since I quit making them](/public/img/vianuedu-git-network.jpg)
+![Notice how the network has literally no branches now, since I quit making them](/images/vianuedu-git-network.jpg)
 
 As you can tell, we eventually reached the point where branches were non-existent (notice the black "master" branch being the only one that
 appears towards the end) simply because Chad found it difficult to collaborate with me if we worked on different branches.
@@ -131,7 +131,7 @@ and can automatically generate HTML pages of documentation for your project! Via
 
 JavaDoc comments look something like this:
 
-![This is what the Student constructor's JavaDoc looks like.](/public/img/javadoc-vianuedu-example.jpg)
+![This is what the Student constructor's JavaDoc looks like.](/images/javadoc-vianuedu-example.jpg)
 
 They contain information about the method (that's a constructor), the parameters, and perhaps even more, such as exceptions, or some other stuff.
 A good JavaDoc comment allows for everyone to understand what a function does, and JavaDoc comments should accompany every method, every variable
@@ -140,7 +140,7 @@ to help anyone else understand what is happening in the code they have in front 
 I like to think my code for the project was relatively well documented, what with every method having documentation, including internal ones, such
 as this one:
 
-![This is what a Godoc comment looks like.](/public/img/godoc-vianuedu-example.jpg)
+![This is what a Godoc comment looks like.](/images/godoc-vianuedu-example.jpg)
 
 The Godoc comment at the top of the method allows for the Go toolchain to automatically generate documentation as well, much like JavaDoc does.
 You can find the generated documentation for the server of VianuEdu [here](https://godoc.org/github.com/CNITV/VianuEdu-Server).
@@ -148,12 +148,12 @@ And as you can see, I thoroughly documented my code. In fact, I can assure you t
 
 Compare that with fellow Chad's code:
 
-![I'm screwed.](/public/img/no-documentation-example.jpg)
+![I'm screwed.](/images/no-documentation-example.jpg)
 
 His code has almost *no* documentation at all. And if there is any documentation, it doesn't really explain anything. It's mostly just added there
 so that I can stop annoying him:
 
-![Here's some documentation.](/public/img/some-documentation-example.jpg)
+![Here's some documentation.](/images/some-documentation-example.jpg)
 
 Yeah, no duh, I figured that out by myself, it's literally in the method's name!
 
@@ -172,7 +172,7 @@ built in with some relatively sane defaults. It makes sure your code is idiomati
 other perfectly fine code. It's a good thing to have, especially when it brings up some awesome little improvements, like lambda replacements
 or even stream API linting:
 
-![An example of the linter in IntelliJ Java IDE.](/public/img/JavaStreamRedundantSorted.gif)
+![An example of the linter in IntelliJ Java IDE.](/images/JavaStreamRedundantSorted.gif)
 
 This one in particular is straight from the IntelliJ website's ["What's New"](https://www.jetbrains.com/idea/whatsnew/#v2018-2-java) section.
 
@@ -182,7 +182,7 @@ I was wrong to believe him.
 
 After about a month of work, I decided to check up on his side of the code and see what it looked like, see if he followed my advice:
 
-![He didn't.](/public/img/a-linters-nightmare.jpg)
+![He didn't.](/images/a-linters-nightmare.jpg)
 
 He didn't.
 
@@ -197,7 +197,7 @@ However, none of that saves him.
 
 He had ***918 warnings***, 55 of which were probable bugs, and 532 of which were declaration redundancies!
 
-![This is chaos.](/public/img/vianuedu-total-warnings.jpg)
+![This is chaos.](/images/vianuedu-total-warnings.jpg)
 This is chaos.
 
 But wait! There's more!

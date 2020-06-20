@@ -107,7 +107,7 @@ column of the dataset. `/dog` is number one, by a landslide difference of 300
 command runs as opposed to the second place command, `/cat`. Apparently, dogs
 are pretty popular!
 
-![Competition Results](/public/img/breadbot-competitionresults.png)
+![Competition Results](/images/breadbot-competitionresults.png)
 
 Unsurprisingly, the rest of the command seem to fit my expectations; `/bruh`, a
 command which simply plays a sound you probably already know of, is relatively
@@ -160,7 +160,7 @@ charts for each command BreadBot used.
 
 We’ll start by looking at the top command, `/dog`.
 
-![Command Distribution for /dog](/public/img/breadbot-commanddistribution-dog.png)
+![Command Distribution for /dog](/images/breadbot-commanddistribution-dog.png)
 
 Hmmm, we notice a bit of an anomaly here.
 
@@ -175,12 +175,12 @@ However, I did look at some other commands as well. `/cat` was slightly more
 even in the amount of calls per user, but it still clearly had one clear power
 user.
 
-![Command Distribution for /cat](/public/img/breadbot-commanddistribution-cat.png)
+![Command Distribution for /cat](/images/breadbot-commanddistribution-cat.png)
 
 What was the most even distribution was probably the ACM Board-only command,
 `/acmurl`.
 
-![Command Distribution for /acmurl](/public/img/breadbot-commanddistribution-acmurl.png)
+![Command Distribution for /acmurl](/images/breadbot-commanddistribution-acmurl.png)
 
 This makes sense, since in most cases, only board members use these commands,
 and generally the same users generate links for ACM’s url shortener.
@@ -199,7 +199,7 @@ split around the data, did some simple cross-tabulation and then rendered the
 heatmap (details in the Jupyter notebook). After that I had a nice heatmap of
 when commands were run over the course of a week.
 
-![Heatmap for Commands](/public/img/breadbot-heatmap-commands.png)
+![Heatmap for Commands](/images/breadbot-heatmap-commands.png)
 
 The thing that is immediately noticeable (which is also a piece of expected
 information) is that the commands are run more towards the end of the day. This
@@ -235,7 +235,7 @@ milk and cereal waiting for all of them to get exported, I quickly ran the same
 data processing as I did before for the heatmap, but now improved. Here we
 go...
 
-![Message Heatmap](/public/img/breadbot-heatmap-messages.png)
+![Message Heatmap](/images/breadbot-heatmap-messages.png)
 
 This heatmap was vastly more accurate, and also came with some pretty
 interesting revelations. Additionally, the white areas (the times when the
@@ -255,7 +255,7 @@ One could also do this to look at one person’s messaging habits by filtering
 all the chat messages to only include the specific user’s messages, and you can
 get a similar heatmap. Here’s mine:
 
-![Storm's Heatmap](/public/img/breadbot-heatmap-storm.png)
+![Storm's Heatmap](/images/breadbot-heatmap-storm.png)
 
 But, most importantly, looking at the all-time heatmap above
 was the first time I was surprised by my graphics.
@@ -279,7 +279,7 @@ way, this makes sense, as merely looking at the amount of messages sent per
 month, we can tell that there has been exponential growth in conversations ever
 since March of 2020.
 
-![Amount of Messages by Month](/public/img/breadbot-message-line.png)
+![Amount of Messages by Month](/images/breadbot-message-line.png)
 
 But what about other more interesting conversations? More accurately, what are
 the most common topics to cause “spikes” in messages?

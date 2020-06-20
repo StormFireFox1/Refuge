@@ -8,7 +8,7 @@ tags = ["networking", "software", "coding", "go", ""]
 categories = ["Development"]
 +++
 
-![This is my server doing nothing.](/public/img/stormhub-node1-htop-idling.jpg)
+![This is my server doing nothing.](/images/stormhub-node1-htop-idling.jpg)
 
 > 0.02 load? 200 MB RAM? Well, that's just inefficient.
 
@@ -43,7 +43,7 @@ me, I didn't have to deal with GoDaddy, which sucks a lot, and I bought my domai
 the domain to my old box (from the Manage DNS settings), as well as a bunch of subdomains for what I was
 planning to use over time (the domain costs, but the subdomains were free).
 
-![The "Manage DNS" menu.](/public/img/007names-dns-menu.jpg)
+![The "Manage DNS" menu.](/images/007names-dns-menu.jpg)
 
 Now that that's done, what was I planning to use Stormhub for?
 Well, I wanted to have:
@@ -92,7 +92,7 @@ take the packets from a specific client and send them all from the server to wha
 looking for, thus allowing for multiple clients to appear as if calling HTTP requests from one server. Commonly,
 this is used for anonymity for all the clients connected, as well as a way to prevent attacks to a client directly.
 
-![A graph of a HTTP proxy and reverse proxy in action.](/public/img/proxy-representation.jpg)
+![A graph of a HTTP proxy and reverse proxy in action.](/images/proxy-representation.jpg)
 
 Now, reverse proxies essentially do the opposite. Instead of having multiple clients sending HTTP requests to the proxy,
 you have multiple servers on different ports communicating with the reverse proxy, and the reverse proxy takes all the
@@ -162,7 +162,7 @@ root@STORMHUB_NODE_1:~# systemctl restart nginx
 
 {{< / highlight >}}
 
-![The StormHub site being online and running.](/public/img/stormhub-site-example.jpg)
+![The StormHub site being online and running.](/images/stormhub-site-example.jpg)
 
 But, as you can probably tell, I'm not satisfied with HTTP. I mean, after all, it's very important to add HTTPS to your server, even
 if it's a static site, simply because it'll be easier to have HTTPS on your other servers as well. But usually, SSL certificates
@@ -251,7 +251,7 @@ server {
 }
 {{< / highlight >}}
 
-![Redirecting in action.](/public/img/redirecting-to-https.gif)
+![Redirecting in action.](/images/redirecting-to-https.gif)
 
 And...does it work? Yes, it does. Great. Now for the passwords!
 
@@ -390,7 +390,7 @@ root@STORMHUB_NODE_1:~# ufw enable
 
 Simple, right? Let's test it.
 
-![Picture of Bitwarden loading even with the firewall on.](/public/img/bitwarden-firewall-problem.jpg)
+![Picture of Bitwarden loading even with the firewall on.](/images/bitwarden-firewall-problem.jpg)
 
 > Wait, what the...
 
@@ -439,7 +439,7 @@ Now I have a pretty decent set of tools online that allow me to work in my own e
 audited and open-source! I'm loving it. Surprisingly enough, they're not as resource-intensive as I estimated,
 using only ~2 GB out of all the available RAM. Nice. Maybe I'll slap on some extra stuff.
 
-![Stormhub "htop" output when fully operational.](/public/img/stormhub-node1-htop-running.jpg)
+![Stormhub "htop" output when fully operational.](/images/stormhub-node1-htop-running.jpg)
 
 > Thanks, Microsoft SQL, for ruining my **htop** output.
 

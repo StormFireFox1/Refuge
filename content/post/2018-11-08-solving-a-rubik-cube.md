@@ -25,7 +25,7 @@ That is, until I got bored.
 Ah, of course, my ultimate motivator! As I was laying in my bed studying for the SATs, I figured *"what better way to solve this lack of motivation than by procrastinating?"*
 It didn't take too long until I found something to mess with: my *very old* Rubik's Cube 2.0 straight from the original brand.
 
-![Here it is, although kind of battered.](/public/img/rubiks-cube-2.0.jpg)
+![Here it is, although kind of battered.](/images/rubiks-cube-2.0.jpg)
 
 As I took it off the stand it resided in for almost 3 years completely untouched, I began turning it around, trying to figure out how
 to solve it until I figured it was absolutely useless. I mean, to be honest, I had no idea what I was doing. I figured the best way to
@@ -49,13 +49,13 @@ measuring my times, so I decided to get a timer app on my phone and PC. I found 
 For my PC, I found the pretty good [CSTimer](https://cstimer.net), which hosts a ton of features, like solve exporting, stats and some cool themes.
 It also works with official speedsolving timers, apparently, so that's pretty cool.
 
-![This is what CSTimer looks like.](/public/img/cstimer-website-screencap.jpg)
+![This is what CSTimer looks like.](/images/cstimer-website-screencap.jpg)
 > Pretty high-end for a simple timer.
 
 I also use [Twisty Timer](https://play.google.com/store/apps/details?id=com.aricneto.twistytimer) on my Android phone if I don't have my laptop handy,
 which happens a lot during rides on the subway. It also comes with a neat graph system to make me feel good about my improving times.
 
-![Nice graph!](/public/img/twisty-timer-graph.jpg)
+![Nice graph!](/images/twisty-timer-graph.jpg)
 
 However, even so, I ended up hitting a dead-end on my times. It was almost as if I was limited by something. Even after learning legitimate CFOP (the general
 method of solving a 3x3 Rubik's Cube) with intuitive F2L (**F**irst **2** **L**ayers) and 4LL (**4**-**L**ook **L**ast Layer), my times were still over 1
@@ -75,7 +75,7 @@ the one that most people seem to use, which is the GAN 356 Air SM.
 After ordering it from Amazon, waiting for it to arrive, getting my money back, ordering it again from a Romanian shop and waiting an entire month for it, I finally
 got it!
 
-![It's beautiful.](/public/img/gan-air-sm.jpg)
+![It's beautiful.](/images/gan-air-sm.jpg)
 > It's beautiful.
 
 Of course, as you can imagine, precisely 3 days after ordering it, the next generation of the cube I got, the GAN 356 X, is released, much like with my YubiKeys.
@@ -84,7 +84,7 @@ Every time.
 Regardless, the new cube moves beautifully, with no defects. It's smooth, doesn't twist, and now I move even faster than before. In fact, I even beat my old
 colleague's personal best, 27 seconds, with my time of 26.69 seconds!
 
-![I'm the best (cuber)...around!](/public/img/my-best-cubing-time.jpg)
+![I'm the best (cuber)...around!](/images/my-best-cubing-time.jpg)
 
 * * *
 

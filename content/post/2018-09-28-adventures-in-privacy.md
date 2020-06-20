@@ -33,12 +33,12 @@ in the browsers to keep your life "secure". While I don't personally blame you f
 Google gets all of your password information for all your accounts. If you don't believe me, allow me to present to you
 Google Takeout.
 
-![A screenshot of the Google Takeout web page.](/public/img/google-takeout-page.jpg)
+![A screenshot of the Google Takeout web page.](/images/google-takeout-page.jpg)
 
 Google Takeout is a rather useful (and ethical) service that Google offers in order for you to request a backup for all of the
 data that you Google account possesses, from YouTube subscriptions to Google Drive files.
 
-![The archive is massive, 38GB for my measly little Google account!](/public/img/google-archive-screencap.jpg)
+![The archive is massive, 38GB for my measly little Google account!](/images/google-archive-screencap.jpg)
 > Holy cow, 38GB! That's massive!
 
 This way you can get all the information that Google has on you, while also getting some nice organized files to boot! For instance,
@@ -52,7 +52,7 @@ passwords, while "pass" just has a Git repository containing GPG-encrypted files
 functionality, such as [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=en) for Android and
 [MyKeePass](https://itunes.apple.com/us/app/minikeepass/id451661808?mt=8) for iPhone.
 
-![A screencap of the KeePass interface. Not mine, but I won't show that one!](/public/img/keepass-2-screencap.png)
+![A screencap of the KeePass interface. Not mine, but I won't show that one!](/images/keepass-2-screencap.png)
 
 Both work surprisingly well and allow for some pretty neat features. "pass" just has a text-file, so you can write whatever you want with it, which is
 very flexible, and KeePass has many features such as auto-expiring keys, URL entries, auto-typing etc.
@@ -74,13 +74,13 @@ for some pretty fun stuff. For instance, you can program it to act like a Human 
 
 And they're just 8 bucks...uuhhh...
 
-![Buy!](/public/img/digispark-purchase.jpg)
+![Buy!](/images/digispark-purchase.jpg)
 > Instant buy!
 
 Yeah, I got two. Anyway, I quickly programmed them to quickly output the 256-character master password on any computer after
 plugged in for 3 seconds. Put in, pull out, logged in. Easy enough for cheap, right?
 
-![This is me coding both, I kept one for backup.](/public/img/digispark-hid-source.jpg)
+![This is me coding both, I kept one for backup.](/images/digispark-hid-source.jpg)
 
 And up top you have the source code, which you would find anyway under "File" > "Examples" > "DigiSpark" > "Keyboard".
 
@@ -176,7 +176,7 @@ So, now I'm done with that. I need something else to waste my time with. Uh, let
 
 Hold up, I need a Google search.
 
-![True story.](/public/img/me-finding-yubikeys.jpg)
+![True story.](/images/me-finding-yubikeys.jpg)
 
 Oh, nice! Let's get them!
 
@@ -191,7 +191,7 @@ A security key can be used to lock many different services behind a physical dev
 I personally bought the Yubikey 4 and Yubikey NEO, since I wanted one to use for my phone and one for the computer as backup. I know, they're not
 Series 5, but I bought them before those were released by 3 days. Just my luck.
 
-![Here they are. They're kinda high-tech.](/public/img/my-yubikeys.jpg)
+![Here they are. They're kinda high-tech.](/images/my-yubikeys.jpg)
 
 Now, the Yubikey can be used for a ton of stuff. They support FIDO U2F, so you can use them to have 2-factor authentication for Google, Twitter,
 Facebook, GitHub, Dropbox, etc. This is already pretty useful instead of typing the same codes all the time, right? Additionally, they can store
@@ -209,12 +209,12 @@ then you need to use the Yubikey 4 for that.
 After using the GitHub gist above, I can just plug the Yubikey in my computer whenever I use GPG and I get
 a sweet prompt for the PIN to use the Yubikey. I just input the PIN, and done!
 
-![It's a cool PIN.](/public/img/yubikey-gpg-pin-entry.jpg)
+![It's a cool PIN.](/images/yubikey-gpg-pin-entry.jpg)
 
 *And* I get a shiny green "verified" badge on every GitHub commit. Sweet!
 But that's a bit more work, which I'll explain in a future blog post, probably.
 
-![Check out that sweet verified badge!](/public/img/sweet-github-badge.jpg)
+![Check out that sweet verified badge!](/images/sweet-github-badge.jpg)
 
 * * *
 

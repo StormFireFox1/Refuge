@@ -16,7 +16,7 @@ pretty much it. Even after my switch from Windows to Linux, it was actually
 pretty good in order to stop my constant gliding  between windows and
 procrastination, but it soon turned to this:
 
-![A GIF of me just switching between desktops extremely quickly.](/public/img/switching-desktops.gif)
+![A GIF of me just switching between desktops extremely quickly.](/images/switching-desktops.gif)
 
 > I think this was a bad idea.
 
@@ -63,7 +63,7 @@ I have the default theme, along with *very few* plugins: *sudo*, *git* and
 set in the Zsh configuration). A simple shell for a simple man, and I love it
 just the way it is.
 
-![Screenshot of the very simple shell.](/public/img/a-simple-shell.jpg)
+![Screenshot of the very simple shell.](/images/a-simple-shell.jpg)
 
 After that, however, I soon realized that I will probably need a bit of help in
 order to keep a bunch of terminal programs in one TTY, and the help came in the
@@ -74,7 +74,7 @@ heavy inspirations from [this .tmux.conf](https://github.com/gpakosz/.tmux), I
 finally had the ability to have a terminal work as my main desktop. It also
 looks cool, and as we all know, style is always a plus.
 
-![A screenshot of my tmux session.](/public/img/tmux-screenshot.jpg)
+![A screenshot of my tmux session.](/images/tmux-screenshot.jpg)
 
 Now, on to the development part. I need a text editor. I don't like Nano,
 but Emacs is too hard, so what am I left with?
@@ -90,7 +90,7 @@ computer user in the **world**. It doesn't matter who you are, you have been
 stuck in Vim without being able to quit from it at least once in your computer
 science career. At least that's how the joke goes, right?
 
-![Yeah, yeah, we all get stuff in Vim sometimes.](/public/img/vim-welcome.jpg)
+![Yeah, yeah, we all get stuff in Vim sometimes.](/images/vim-welcome.jpg)
 
 > I don't get it though, it says how to exit it on the welcome screen!
 
@@ -125,7 +125,7 @@ engine that is actually pretty damn good. That being said, vim is now my main
 text editor, and I absolutely love it. I write faster than I've ever written
 code before.
 
-![A screenshot of my Vim setup on a C++ exercise.](/public/img/vim-screenshot.jpg)
+![A screenshot of my Vim setup on a C++ exercise.](/images/vim-screenshot.jpg)
 
 * * *
 
@@ -147,7 +147,7 @@ Meet Neomutt: a fork of Mutt that turns e-mail into a very simple terminal
 application. Nothing fancy, just folders, inboxes, and a dead simple interface
 for reading and managing e-mail. No more, no less.
 
-![Neomutt in action.](/public/img/neomutt-screenshot.jpg)
+![Neomutt in action.](/images/neomutt-screenshot.jpg)
 
 Surprisingly, this has helped not only with my e-mail organization, but also
 made me realize that I had some bad e-mail habits. For instance, I used to
@@ -191,7 +191,7 @@ to enable the visualizer as well (I wouldn't recommend following the Spotify
 part, it's outdated), and that was it! Music in my terminal. Honestly, it looks
 pretty cool, too!
 
-![Me listening to music.](/public/img/tmux-music-screenshot.jpg)
+![Me listening to music.](/images/tmux-music-screenshot.jpg)
 
 * * *
 
@@ -209,7 +209,7 @@ Markdown and import them to Joplin just as easily. Joplin also comes with a
 terminal client, so imagine my delight that at this point, 100% of my activities
 on my PC could be switched to a terminal fully! Amazing!
 
-![Joplin in action.](/public/img/joplin-screenshot.jpg)
+![Joplin in action.](/images/joplin-screenshot.jpg)
 
 * * *
 

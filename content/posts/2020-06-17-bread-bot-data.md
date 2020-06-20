@@ -8,7 +8,8 @@ tags = ["data", "cs", "science", "programming"]
 categories = ["Data Science"]
 +++
 
-_This was a blog post written for ACM @ UCSD's Medium, which can be found [here]().
+_This was a blog post written for ACM @ UCSD's Medium, which can be found
+[here](https://medium.com/@acmatucsandiego/i-tracked-a-discord-servers-bot-usage-7ebf04affd1e).
 This is a verbatim copy of the article found there. Anything that might seem out
 of context is due to the target audience of the original article._
 

@@ -71,7 +71,7 @@ what better time to get started on having fun with the data!
 ## Getting the Data Out
 
 This was the easiest part, mostly. The command log was essentially a CSV file,
-with `:` as its separator. In hindsight , this was a bad idea at the time i
+with `:` as its separator. In hindsight, this was a bad idea at the time I
 coded it, since there might have been members in the list with that character
 in their username. I should have done something like `$$` or some other more
 rare separator, which could’ve been better. It’s a good example of why data
@@ -85,9 +85,8 @@ Now, I spun up a classic Jupyter notebook with an Anaconda environment, and
 started pulling the data in, refining it for future use.
 
 _If you wanna follow along to all of my observations here, I highly recommend
-you check out the [Jupyter
-notebook](https://github.com/StormFireFox1/BreadBotData) I
-used while writing this post. That way, you can see my thought process behind
+you check out the [Jupyter notebook](https://github.com/StormFireFox1/BreadBotData)
+I used while writing this post. That way, you can see my thought process behind
 the metrics I start talking about, as well as how I got them. Think of the
 notebook as a very educational “behind-the-scenes”._
 
@@ -127,14 +126,19 @@ provides by just running a one-liner:
 
 I’ll split this up to explain what each command does:
 ```bash
-$ grep <COMMAND> commandCount.log \  # - get all "dog" entries
-    | awk -F: '{print $3}' \         # - extract 3rd field from stream
-                                     #   with delimiter ":"
-    | sort \                         # - sort all found users to
-                                     #   group up for "uniq"
-    | uniq -c \                      # - count number of unique fields
-                                     #   (usernames, in this case)
-    | sort -nr                       # - sort in descending order
+$ grep <COMMAND> commandCount.log \ 
+    # - get all <COMMAND> entries
+    | awk -F: '{print $3}' \
+    # - extract 3rd field from stream
+    #   with delimiter ":"
+    | sort \
+    # - sort all found users to
+    #   group up for "uniq"
+    | uniq -c \
+    # - count number of unique fields
+    #   (usernames, in this case)
+    | sort -nr                      
+    # - sort in descending order
 ```
 While obviously not as good-looking as a chart, it’s still useful information
 you can grab quick. (Yes, I may use terminals too much)
@@ -253,9 +257,11 @@ get a similar heatmap. Here’s mine:
 
 ![Storm's Heatmap](/public/img/breadbot-heatmap-storm.png)
 
-But, most importantly, this is the first time I was surprised by my graphics.
+But, most importantly, looking at the all-time heatmap above
+was the first time I was surprised by my graphics.
 
-----
+* * *
+
 ## “What’s with the spike at 11 PM?”
 
 You might’ve also noticed the spike of messages on Wednesdays at around 11 PM.
@@ -284,7 +290,8 @@ At this point, I think it’s good to take a break. I’m falling in a hole,
 tempted by the lure of big data, and I think the conversation starter question
 can be answered some other time. It’s also better if I gather some more data.
 
-----
+* * *
+
 ## This was cool!
 
 I forgot how fun data can get once you’re actually getting into it. Not only do
@@ -306,7 +313,7 @@ even in your personal life, I’m sure you’ll find something you’re missing.
 if you don’t, well, at least you’ve gotten better at whipping up cool charts.
 Maybe that’ll get useful in a meeting sometime! :)
 
-----
+* * *
 
 _Make sure to check out the Jupyter notebook so you can be get familiar with
 the more technical aspects of data visualization. I don’t really get into the

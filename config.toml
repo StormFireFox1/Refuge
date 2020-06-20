@@ -3,6 +3,7 @@ themesDir = "themes/"
 contentDir = "content/"
 publishDir = "public/"
 theme = "LoveIt"
+title = "A Procrastinator's Refuge"
 
 builddrafts = false
 

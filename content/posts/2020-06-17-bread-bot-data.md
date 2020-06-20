@@ -9,7 +9,7 @@ categories = ["Data Science"]
 +++
 
 _This was a blog post written for ACM @ UCSD's Medium, which can be found
-[here](https://medium.com/@acmatucsandiego/i-tracked-a-discord-servers-bot-usage-7ebf04affd1e).
+[here](https://medium.com/acmucsd/i-tracked-a-discord-bots-server-usage-9f3b05d68878).
 This is a verbatim copy of the article found there. Anything that might seem out
 of context is due to the target audience of the original article._
 
@@ -127,7 +127,7 @@ provides by just running a one-liner:
 
 I’ll split this up to explain what each command does:
 ```bash
-$ grep <COMMAND> commandCount.log \ 
+$ grep <COMMAND> commandCount.log \
     # - get all <COMMAND> entries
     | awk -F: '{print $3}' \
     # - extract 3rd field from stream
@@ -138,7 +138,7 @@ $ grep <COMMAND> commandCount.log \
     | uniq -c \
     # - count number of unique fields
     #   (usernames, in this case)
-    | sort -nr                      
+    | sort -nr
     # - sort in descending order
 ```
 While obviously not as good-looking as a chart, it’s still useful information

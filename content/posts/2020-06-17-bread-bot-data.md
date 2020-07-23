@@ -239,12 +239,12 @@ go...
 ![Message Heatmap](/images/breadbot-heatmap-messages.png)
 
 This heatmap was vastly more accurate, and also came with some pretty
-interesting revelations. Additionally, the white areas (the times when the
-least amount of messages are sent) are mostly during times when people are
-sleeping, which further reinforces the fact that ACM’s Discord server is active
-_almost 24 hours of the day!_  First off, the server’s members had a wider
-variety of sleep schedules than I previously expected; no one sleeps only 3
-hours a night, and the times the server didn’t have messages is very small.
+interesting revelations. First off, the server’s members had a wider variety of
+sleep schedules than I previously expected; no one sleeps only 3 hours a night,
+and the times the server didn’t have messages is very small. Additionally, the
+white areas (the times when the least amount of messages are sent) are mostly
+during times when people are sleeping, which further reinforces the fact that
+ACM’s Discord server is active _almost 24 hours of the day!_
 
 If you're a member of ACM's Discord, you might already notice that members
 are incredibly active at around 2 AM, but this isn't really reflected in the

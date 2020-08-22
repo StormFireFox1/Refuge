@@ -1,6 +1,6 @@
 +++
 title = "Keeping Everything Together"
-description = "A file containing all blog posts written in Org for the Refuge."
+description = "How I spent a couple of weeks refining my tooling to the point everything's in one place."
 date = 2020-08-04
 draft = false
 tags = ["productivity", "software", "tools", "coding"]

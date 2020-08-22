@@ -46,7 +46,7 @@ do so with a list of "tasks" and simply take one from each list every time. i.e.
 something else again, and so on and so forth. How did I manage this with tools? Well, you guessed it... a to-do list.
 
 Nothing impressive, but it did wonders for me to be able to differentiate between what I needed to do. At first, I used
-[Trello](https://trello.com/), and I used a Kanban-style board to organize my tasks in 5 lists: "Inbox", "To Do", "In Progress", "Done" and "Later". 
+[Trello](https://trello.com/), and I used a Kanban-style board to organize my tasks in 5 lists: "Inbox", "To Do", "In Progress", "Done" and "Later".
 I found quickly, however, that the little cards weren't good for differentiating the tasks in a way I wanted to. Ergo, I started looking for another
 solution.
 
@@ -79,12 +79,20 @@ I just spend around 15 minutes a day to make sure I input all the food into Cron
 
 ## Time
 
-To be fr.replyShow=function(est way to handle that is to take the 15 minutes a day I spend inserting food entries in Cronometer and also check on my activity for the day.
-This way, I can make sure I'm staying on track with completing all the tasks I have on hand during the day. The best way to do that is with timetables,
-and the best automated time-tracking application is [RescueTime](http://rescuetime.com/), but to be frank, it's not open-source and there's been some
-data privacy scandals with them, so I went the open-source approach and picked [ActivityWatch](https://github.com/ActivityWatch/activitywatch), which
-is essentially local RescueTime on PC, which works quite well. It pulls time entries by reading the active window's title and saving the time spent on it.
-At some point I will definitely contribute to the project, since it's quite well-done and the developers need the help.
+To be frank, I've found that, even if I'm at my laptop working, I waste time by
+drifting off on Reddit or YouTube or even working on other things.  So, the
+best way to handle that is to take the 15 minutes a day I spend inserting food
+entries in Cronometer and also check on my activity for the day.  This way, I
+can make sure I'm staying on track with completing all the tasks I have on hand
+during the day. The best way to do that is with timetables, and the best
+automated time-tracking application is [RescueTime](http://rescuetime.com/),
+but to be frank, it's not open-source and there's been some data privacy
+scandals with them, so I went the open-source approach and picked
+[ActivityWatch](https://github.com/ActivityWatch/activitywatch), which is
+essentially local RescueTime on PC, which works quite well. It pulls time
+entries by reading the active window's title and saving the time spent on it.
+At some point I will definitely contribute to the project, since it's quite
+well-done and the developers need the help.
 
 ![ActivityWatch report](/images/activitywatch-report.jpg)
 

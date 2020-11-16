@@ -28,6 +28,6 @@ build:
 deploy:
   stage: deploy
   script:
-    - ssh -i .ssh/id_rsa -p31187 ghost@blog.stormhub.io 'sudo deploy_blog'
+    - ssh -i ~/.ssh/id_rsa -p31187 ghost@blog.stormhub.io 'sudo deploy_blog'
   only:
     - master

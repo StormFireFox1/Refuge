@@ -1,11 +1,13 @@
 ---
 # Latest Hugo image
-image: klakegg/hugo:ubuntu
+image: alpine:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 before_script:
+  # Install Hugo
+  - apk add hugo
   ##
   ## Create the SSH directory and give it the right permissions
   ##

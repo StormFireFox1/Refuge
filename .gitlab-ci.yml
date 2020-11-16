@@ -17,7 +17,7 @@ before_script:
   - chmod 700 ~/.ssh
 
   ## Add the SSH private key and host key
-  - ssh-keyscan blog.stormhub.io >> ~/.ssh/known_hosts
+  - ssh-keyscan blog.stormhub.io:31187 >> ~/.ssh/known_hosts
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
 
 build:

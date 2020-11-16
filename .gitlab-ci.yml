@@ -24,7 +24,6 @@ build:
 
 deploy:
   stage: deploy
-  needs: ["test"]
   script:
     - ssh -c 'sudo deploy_blog' ghost@blog.stormhub.io:31187
   only:

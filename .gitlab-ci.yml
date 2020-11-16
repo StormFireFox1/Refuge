@@ -1,0 +1,29 @@
+---
+# Latest Hugo image
+image: klakegg/hugo:ubuntu
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  ##
+  ## Create the SSH directory and give it the right permissions
+  ##
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+
+  ## Add the SSH key
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+
+test:
+  script:
+    - hugo
+  only:
+    - master
+
+deploy:
+  needs: ["test"]
+  script:
+    - ssh -c 'sudo deploy_blog' ghost@blog.stormhub.io:31187
+  only:
+    - master

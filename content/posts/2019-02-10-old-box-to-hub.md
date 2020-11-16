@@ -4,7 +4,7 @@ date = 2019-02-20T12:30:00+02:00
 pubdate = 2019-02-20T12:30:00+02:00
 draft = false
 weight = 0
-tags = ["networking", "software", "coding", "go", ""]
+tags = ["networking", "software", "coding", "go"]
 categories = ["Development"]
 +++
 
@@ -17,14 +17,14 @@ used it for my endeavors in ethical hacking, as a NAS, as a temporary server for
 but I've never used it for a clear and defined purpose. This ended up being rather disconcerting,
 since the box itself was nothing to scoff at: it was a box of 4 GB RAM, 2 GHz box with 80 gigs of
 SSD space, which is overkill considering what I was using it for. I mean, if I exposed a Raspberry Pi
-to the net and did the same things on it as I did on the VPS, it would've been *significantly* more
+to the net and did the same things on it as I did on the VPS, it would've been _significantly_ more
 cost-effective.
 
 Ergo, after literally 7 seconds of thought and consideration, I decided to take it upon myself to
 put that old box to good use! After all, I have 4 gigs of RAM to use up, I'll fill them all, even if
 I have to use Chrome tabs to do so. But what did I need first?
 
-* * *
+---
 
 ## I need a domain!
 
@@ -61,7 +61,7 @@ root@STORMHUB_NODE_1:~# crack_knuckles
 Cracking......................
 {{< / highlight >}}
 
-* * *
+---
 
 ## Blog and Landing Page
 
@@ -75,7 +75,7 @@ approach of hosting all my content, which would be problematic if we were to use
 
 Well, as you can imagine, all domains point to an IP address, and if that IP address is the same (i.e. the same
 server), then you can only server one web server on port 80 (the default HTTP port)
-since you have, well, one server. So, how do you host multiple webservers on the same server on the *same* port,
+since you have, well, one server. So, how do you host multiple webservers on the same server on the _same_ port,
 all while pointing all subdomains to those webservers and having them serve websites differently depending from
 what subdomain you queried the server from?
 
@@ -83,7 +83,7 @@ Through black magic, of course.
 
 I suppose I had to pull the ultimate networking trump card out.
 
-* * *
+---
 
 ## Reverse proxies!
 
@@ -97,10 +97,10 @@ this is used for anonymity for all the clients connected, as well as a way to pr
 Now, reverse proxies essentially do the opposite. Instead of having multiple clients sending HTTP requests to the proxy,
 you have multiple servers on different ports communicating with the reverse proxy, and the reverse proxy takes all the
 requests it receives and routes them to the server that needs them, according to a set of. This effectively allows you
-to front a number of HTTP servers behind a single reverse proxy, and that means you can have multiple programs run 
+to front a number of HTTP servers behind a single reverse proxy, and that means you can have multiple programs run
 effectively on the same port. This not only solves my single-server problem, but also allows for me to host multiple
 servers on the same domain using virtual hosts, which most reverse proxies have, that will allow for the reverse proxy
-to differentiate requests using the subdomain the request points to. 
+to differentiate requests using the subdomain the request points to.
 
 Now, firstly, I downloaded NGINX and made a new configuration file in the configuration directory for every site I would
 need:
@@ -111,19 +111,21 @@ root@STORMHUB_NODE_1:~# apt install nginx
 # [OUTPUT SNIPPED]
 
 root@STORMHUB_NODE_1:~# touch /etc/nginx/sites-available/stormhub.io
-root@STORMHUB_NODE_1:~# touch /etc/nginx/sites-available/blog.stormhub.io 
+root@STORMHUB_NODE_1:~# touch /etc/nginx/sites-available/blog.stormhub.io
 {{< / highlight >}}
 
-This essentially ensures that I have the sites *available* for use by NGINX, named by domain. Now, they're both static sites,
+This essentially ensures that I have the sites _available_ for use by NGINX, named by domain. Now, they're both static sites,
 so the configuration file is pretty simple, in fact a snippet of the original configuration file that nginx gives you.
 
 {{< highlight nginx >}}
+
 # Default NGINX static site configuration
+
 # This works with HTTP only, however.
-server {
-        # listening section, we'll work with SSL as well later on
-        listen 80 default_server;
-        listen [::]:80 default_server;
+
+server { # listening section, we'll work with SSL as well later on
+listen 80 default_server;
+listen [::]:80 default_server;
 
         root /var/www/stormhub.io/html;
 
@@ -142,6 +144,7 @@ server {
                 # as directory, then fall back to displaying a 404.
                 try_files $uri $uri/ =404;
         }
+
 }
 {{< / highlight >}}
 
@@ -168,7 +171,7 @@ But, as you can probably tell, I'm not satisfied with HTTP. I mean, after all, i
 if it's a static site, simply because it'll be easier to have HTTPS on your other servers as well. But usually, SSL certificates
 cost, right? Nope.
 
-* * *
+---
 
 ## Thank you, Let's Encrypt!
 
@@ -183,18 +186,23 @@ root@STORMHUB_NODE_1:~# certbot certonly
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 
 How would you like to authenticate with the ACME CA?
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---
+
 1: Spin up a temporary webserver (standalone)
 2: Place files in webroot directory (webroot)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---
+
 Select the appropriate number [1-2] then [enter] (press 'c' to cancel): 1
 Plugins selected: Authenticator standalone, Installer None
-Please enter in your domain name(s) (comma and/or space separated) 
+Please enter in your domain name(s) (comma and/or space separated)
 (Enter 'c' to cancel): stormhub.io, blog.stormhub.io
 
 Performing the following challenges:
 http-01 challenge for stormhub.io
 Cleaning up challenges
+
 # [OUTPUT SNIPPED]
 
 {{< / highlight >}}
@@ -204,14 +212,15 @@ available at `/etc/letsencrypt/live/[DOMAIN]/` and you can use them with anythin
 
 Now NGINX needed to listen for SSL and be pointed to my certificates, so I did that:
 {{< highlight nginx >}}
+
 # Default NGINX static site configuration
+
 # This only serves HTTPS, we need to redirect to this from HTTP.
-server {
-        # SSL configuration, we'll use the "default"
-        # configuration file to redirect to this
-        listen 443 ssl default_server;
-        listen [::]:443 ssl default_server;
-        ssl on;
+
+server { # SSL configuration, we'll use the "default" # configuration file to redirect to this
+listen 443 ssl default_server;
+listen [::]:443 ssl default_server;
+ssl on;
 
         # SSL certificate section, change accordingly
         # to the domain name you want
@@ -235,6 +244,7 @@ server {
                 # as directory, then fall back to displaying a 404.
                 try_files $uri $uri/ =404;
         }
+
 }
 {{< / highlight >}}
 
@@ -244,10 +254,10 @@ and redirect people to HTTPS directly.
 
 {{< highlight nginx >}}
 server {
-        listen 80 default_server;
-        listen [::]:80 default_server;
-        server_name _;
-        return 301 https://$host$request_uri;
+listen 80 default*server;
+listen [::]:80 default_server;
+server_name *;
+return 301 https://$host$request_uri;
 }
 {{< / highlight >}}
 
@@ -255,9 +265,10 @@ server {
 
 And...does it work? Yes, it does. Great. Now for the passwords!
 
-* * *
+---
 
 ## An online password database?
+
 > But that can't be smart...or safe...eh, whatever.
 
 As you know, from [one of my previous posts](/2018/09/28/adventures-in-privacy-part-1-keys-everywhere/), I use a password
@@ -278,11 +289,16 @@ Bitwarden behind the reverse proxy.
 {{< highlight bash >}}
 
 root@STORMHUB_NODE_1:~# ./bitwarden.sh install
-#  _     _ _                         _
-# | |__ (_) |___      ____ _ _ __ __| | ___ _ __
-# | '_ \| | __\ \ /\ / / _` | '__/ _` |/ _ \ '_ \
-# | |_) | | |_ \ V  V / (_| | | | (_| |  __/ | | |
-# |_.__/|_|\__| \_/\_/ \__,_|_|  \__,_|\___|_| |_|
+
+# \_ \_ \_ \_
+
+# | |** (_) |_** \_**\_ \_ \_ ** **| | \_** \_ \_\_
+
+# | '_ \| | \_\_\ \ /\ / / _`| '__/ _` |/ _ \ '_ \
+
+# | |_) | | |_ \ V V / (_| | | | (_| | \_\_/ | | |
+
+# |_.\_\_/|_|\_\_| \_/\_/ \__,_|\_| \__,_|\_\__|_| |\_|
 
 Open source password management solutions
 Copyright 2015-2019, 8bit Solutions LLC
@@ -298,6 +314,7 @@ docker-compose version 1.17.1, build unknown
 (!) Do you want to use Let's Encrypt to generate a free SSL certificate? (y/n): n
 
 # [OUTPUT SNIPPED]
+
 # Select "no" for all options if looking to back with reverse proxy
 
 {{< / highlight >}}
@@ -317,13 +334,13 @@ The configuration file for the password vault was much simpler than I thought it
 {{< highlight nginx >}}
 
 # Default NGINX web app configuration
+
 # Serves HTTPS only and proxies to HTTP app
-server {
-        # SSL configuration, we'll use the "default"
-        # configuration file to redirect to this
-        listen 443 ssl http2;
-        listen [::]:443 ssl http2;
-        ssl on;
+
+server { # SSL configuration, we'll use the "default" # configuration file to redirect to this
+listen 443 ssl http2;
+listen [::]:443 ssl http2;
+ssl on;
 
         # SSL certificate section, change domain
         # accordingly
@@ -352,6 +369,7 @@ server {
                 proxy_set_header X-Forwarded-Protocol $scheme;
                 proxy_set_header X-Url-Scheme $scheme;
         }
+
 }
 
 {{< / highlight >}}
@@ -359,7 +377,7 @@ server {
 Turns out that it worked splendidly, and now I had both static sites and web apps easily configured
 on my reverse proxy. Still not done, though.
 
-* * *
+---
 
 ## Firewall Time
 
@@ -375,7 +393,7 @@ particular guide. All of them essentially used the same configuration files as a
 of certificates from Let's Encrypt.
 
 Now, I had to close the ports that the HTTP apps used from listening on eth0, the interface that people touched,
-and instead listen only on local loopback (127.0.0.1). I simply downloaded *ufw* and did some standard configs:
+and instead listen only on local loopback (127.0.0.1). I simply downloaded _ufw_ and did some standard configs:
 
 {{< highlight bash >}}
 root@STORMHUB_NODE_1:~# apt-get install ufw
@@ -394,44 +412,44 @@ Simple, right? Let's test it.
 
 > Wait, what the...
 
-***sigh*** Alright, alright, fine. I never really trust anything over the machine level. I started diving in to see
-why that didn't work. Simplest way to check is to check what file *ufw* actually edits, the iptables list, let's
+**_sigh_** Alright, alright, fine. I never really trust anything over the machine level. I started diving in to see
+why that didn't work. Simplest way to check is to check what file _ufw_ actually edits, the iptables list, let's
 see what that said.
 
 {{< highlight bash >}}
 root@STORMHUB_NODE_1:~# iptables --list
 Chain INPUT (policy DROP)
-target                    prot opt source               destination
-ufw-before-logging-input  all  --  anywhere             anywhere
-ufw-before-input          all  --  anywhere             anywhere
-ufw-after-input           all  --  anywhere             anywhere
-ufw-after-logging-input   all  --  anywhere             anywhere
-ufw-reject-input          all  --  anywhere             anywhere
-ufw-track-input           all  --  anywhere             anywhere
+target prot opt source destination
+ufw-before-logging-input all -- anywhere anywhere
+ufw-before-input all -- anywhere anywhere
+ufw-after-input all -- anywhere anywhere
+ufw-after-logging-input all -- anywhere anywhere
+ufw-reject-input all -- anywhere anywhere
+ufw-track-input all -- anywhere anywhere
 
 # [OUTPUT SNIPPED]
 
 Chain DOCKER (4 references)
-target     prot opt source               destination
-ACCEPT     tcp  --  anywhere             anywhere
-ACCEPT     tcp  --  anywhere             anywhere
-ACCEPT     tcp  --  anywhere             anywhere
-ACCEPT     tcp  --  anywhere             anywhere
-ACCEPT     tcp  --  anywhere             anywhere
-ACCEPT     tcp  --  anywhere             anywhere
-ACCEPT     tcp  --  anywhere             anywhere
-ACCEPT     tcp  --  anywhere             anywhere
+target prot opt source destination
+ACCEPT tcp -- anywhere anywhere
+ACCEPT tcp -- anywhere anywhere
+ACCEPT tcp -- anywhere anywhere
+ACCEPT tcp -- anywhere anywhere
+ACCEPT tcp -- anywhere anywhere
+ACCEPT tcp -- anywhere anywhere
+ACCEPT tcp -- anywhere anywhere
+ACCEPT tcp -- anywhere anywhere
 {{< / highlight >}}
 
 Ah, well, see, this is where things went wrong. Bitwarden uses Docker to host itself, which allows for easy deployment,
 but many complications on the lower level. Docker likes to be invasive, so turns out that it doesn't like the
 firewall rules it gets from the predefined chains (groups of rules) and makes its own chain, which is managed
-by the Docker environment, not *ufw*. All we had to do, essentially, was find whether Docker asked to bind a port
+by the Docker environment, not _ufw_. All we had to do, essentially, was find whether Docker asked to bind a port
 and simply add `127.0.0.1:` in front of every mention of a port, and that solves the problem.
 
 Perfect! Stormhub is fully operational!
 
-* * *
+---
 
 ## Conclusion
 

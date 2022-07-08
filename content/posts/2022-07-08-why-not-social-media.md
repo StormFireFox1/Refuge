@@ -3,7 +3,7 @@ title = "Why shouldn’t I use social media?"
 description = "Instagram’s tempting me, I guess. But hey, let’s be open-minded and find out what I really think about social media."
 date = 2022-07-08
 draft = false
-tags = ["lifestyle", "social", “photos”]
+tags = ["lifestyle", "social", "photos"]
 category = ["Lifestyle"]
 +++
 

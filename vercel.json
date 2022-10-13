@@ -1,72 +1,72 @@
 {
     "redirects": [
         {
-          "source": "https://blog.stormhub.io/2018/09/21/welcome/",
+          "source": "/2018/09/21/welcome/",
           "destination": "https://matei.gard.us/articles",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2018/09/28/adventures-in-privacy-part-1-keys-everywhere/",
+          "source": "/2018/09/28/adventures-in-privacy-part-1-keys-everywhere/",
           "destination": "https://matei.gard.us/articles/adventures-in-privacy-part-1",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2018/10/25/coding-with-others-is-hard/",
+          "source": "/2018/10/25/coding-with-others-is-hard/",
           "destination": "https://matei.gard.us/articles/coding-with-others-is-hard",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2018/11/08/solving-a-rubiks-cube-is-fun/",
+          "source": "/2018/11/08/solving-a-rubiks-cube-is-fun/",
           "destination": "https://matei.gard.us/articles/solving-a-rubiks-cube-is-fun",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2019/01/20/the-l.i.f.e-stack/",
+          "source": "/2019/01/20/the-l.i.f.e-stack/",
           "destination": "https://matei.gard.us/articles/the-life-stack",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2019/02/07/around-the-world-in-80-vpn-hops/",
+          "source": "/2019/02/07/around-the-world-in-80-vpn-hops/",
           "destination": "https://matei.gard.us/articles/around-the-world-in-80-hops",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2019/02/20/from-a-sitting-box-to-a-busy-hub/",
+          "source": "/2019/02/20/from-a-sitting-box-to-a-busy-hub/",
           "destination": "https://matei.gard.us/articles/old-box-to-hub",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2019/05/10/back-to-the-basics-a-simple-terminal/",
+          "source": "/2019/05/10/back-to-the-basics-a-simple-terminal/",
           "destination": "https://matei.gard.us/articles/adventures-in-terminal",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2019/08/18/making-windows-and-linux-hold-hands-is-interesting/",
+          "source": "/2019/08/18/making-windows-and-linux-hold-hands-is-interesting/",
           "destination": "https://matei.gard.us/articles/arch-linux-dual-boot",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2020/06/17/i-tracked-a-discord-servers-bot-usage/",
+          "source": "/2020/06/17/i-tracked-a-discord-servers-bot-usage/",
           "destination": "https://matei.gard.us/articles/breadbot-data",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2020/08/04/keeping-everything-together/",
+          "source": "/2020/08/04/keeping-everything-together/",
           "destination": "https://matei.gard.us/articles/emacs-intro",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2021/09/16/i-want-my-digital-newspaper-back/",
+          "source": "/2021/09/16/i-want-my-digital-newspaper-back/",
           "destination": "https://matei.gard.us/articles/rss-feeds",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2022/06/24/i-miss-procrastinating/",
+          "source": "/2022/06/24/i-miss-procrastinating/",
           "destination": "https://matei.gard.us/articles/i-miss-procrastinating",
           "permanent": false
         },
         {
-          "source": "https://blog.stormhub.io/2022/07/08/why-shouldnt-i-use-social-media/",
+          "source": "/2022/07/08/why-shouldnt-i-use-social-media/",
           "destination": "https://matei.gard.us/articles/why-not-social-media",
           "permanent": false
         }

@@ -1,6 +1,11 @@
 {
     "redirects": [
         {
+          "source": "/",
+          "destination": "https://matei.gard.us/articles",
+          "permanent": false
+        },
+        {
           "source": "/2018/09/21/welcome/",
           "destination": "https://matei.gard.us/articles",
           "permanent": false
